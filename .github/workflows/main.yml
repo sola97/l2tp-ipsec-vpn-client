@@ -33,3 +33,5 @@ jobs:
           context: .
           push: true
           tags: sola97/l2tp-ipsec-vpn-client:latest
+        env:
+          DOCKER_BUILD_RECORD_UPLOAD: 'false'
